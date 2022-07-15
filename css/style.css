@@ -1,0 +1,324 @@
+/* font-family: 'Libre Franklin', sans-serif; */
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+:root {
+	--font-family: 'Libre Franklin', sans-serif;
+}
+
+h2{
+	margin: 0;
+	padding-top: 93px;
+}
+
+h3{
+	margin: 0;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	color: #333333;
+}
+
+.sills-text{
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 25px;
+	color: #333333;
+}
+
+body {
+	font-family: var(--font-family);
+	font-weight: 400;
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+.list-reset {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.container {
+	max-width: 1109px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+header{
+	display: inline;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 0px 0;
+	width: 100%;
+}
+
+.navigation {
+	display: inline-flex
+}
+
+.logo {
+	display: block;
+	padding: 93px 464px 0 0 ;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 29px;
+	color: #FFFFFF;
+}
+
+menu{
+	display: block;
+	padding-top: 93px;
+}
+
+.menu-li{
+	display: inline-block;
+	padding-top: 93px;
+	padding-right: 57px;
+}
+
+.menu-a {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.menu-home{
+	padding-right: 0;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	color: #FFFFFF;
+}
+
+.menu-li:hover{
+	cursor: pointer;
+}
+
+.menu-li:last-child:last-child {
+	padding-right: 0;
+	}
+
+a:hover{
+	cursor: pointer;
+}
+
+.hero {
+	min-height: 768px;
+	background-image: url(../img/header-bg.png);
+	/* по цетру */
+	background-position: center;
+	/* растянута на весь экран */
+	background-size: cover;
+	/* не повторяется */
+	background-repeat: no-repeat;
+}
+
+.hero-title {
+	margin: 0;
+	padding-top: 268px;
+	font-weight: 400;
+	font-size: 64px;
+	line-height: 78px;
+	display: flex;
+	align-items: center;
+	color: #FFFFFF;
+}
+
+.hero-descr {
+	padding-top: 26px;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	color: #FFFFFF;
+}
+
+.hero-link {
+	display: block;
+	padding-top: 106px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	text-decoration-line: underline;
+	color: #FFFFFF;
+}
+
+.about{
+	background-color: #fff;
+}
+
+.about-text {
+	margin: 0;
+	padding-top: 76px;
+	padding-bottom: 135px;
+	/* font-style: normal; */
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: justify;
+	color: #333333;
+}
+
+.skills {
+	background-color: #FFFAF2;
+}
+
+.avatar{
+	margin-top: 86px;
+}
+
+.skill{
+	margin-left: 122px;
+	padding-top: 0px;
+	display: inline-block;
+	
+}
+
+.skills-th{
+	display: inline-block;
+}
+
+.profile {
+	margin: 0;
+	padding-bottom: 50px;
+	display: block;
+}
+
+.stp{
+	margin-left: 131px;
+}
+
+.skills-text {
+	display: inline-block;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+progress{
+	background-color: #fff;
+	color: #dbc8c8;
+	border: 0;
+	border-radius: 0;
+	width: 440px;
+	height: 24px;
+}
+
+progress::-webkit-progress-bar {
+	background-color: rgba(245, 214, 171, 1);
+}
+
+progress::-webkit-progress-value {
+	background-color: rgba(198, 108, 73, 1);
+
+}
+
+.progress-ux{
+	margin-left: 78px;
+}
+
+.ux-research {
+	padding-bottom: 20px;
+}
+
+.tools-ux{
+	margin-left: 143px;
+}
+
+.pogress-ui{
+	margin-left: 107px;
+}
+
+.tools-ui{
+	margin-left: 143px;
+}
+
+.progress-front-end{
+	margin-left: 66px;
+}
+
+.tools-front-end{
+	margin-left: 143px;
+	margin-bottom: 142px;
+}
+
+.portfolio {
+	background: #FFFFFF;
+}
+
+.portfolio-content {
+	margin-top: 86px;
+	display: flex;
+}
+
+.portfolio-text {
+	margin: 0;
+	padding-top: 48px;
+	padding-bottom: 420px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: justify;
+	color: #333333;
+}
+
+.portfolio-descr {
+	max-width: 349px;
+	margin-right: 125px;
+}
+
+.portfolio-img {
+	padding-top: 66px;
+	display: flex;
+	max-width: 635px;
+	max-height: 403px;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer{
+	background: #FFFAF2;
+}
+
+.footer-content{
+	margin-top: 51px;
+	padding-bottom: 189px;
+	height: 165px;
+	max-width: 1109px;
+	display: flex;
+}
+
+.footer-column {
+	padding-right: 300px;
+}
+
+.footer-list {
+}
+
+.list-reset {
+}
+
+.footer-item {
+	padding-bottom: 14px;
+}
+
+.footer-link {
+	padding-bottom: 14px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	color: #333333;
+}
+
